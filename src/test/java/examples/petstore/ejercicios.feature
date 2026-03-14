@@ -50,7 +50,7 @@ Feature: Ejercicios Basicos
 
   Scenario: Prueba de assert
     # tipo de dato string
-    * def color = 'red '
+    * def color = 'red             '
 
     # tipo de dato numero
     * def num = 5
@@ -58,7 +58,7 @@ Feature: Ejercicios Basicos
     # 1     +     1 = 2 , '11'
     # '1  ' +'1' = '1  1'
     #suma 'red '+5 = red 5
-    Then assert color + num == 'red 5'
+    Then assert color+num == 'red             5'
 
   Scenario: CP04 - Actualizar informacion mascota
     And path '/pet'

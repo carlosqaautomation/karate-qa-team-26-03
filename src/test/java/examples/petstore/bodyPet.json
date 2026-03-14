@@ -1,0 +1,18 @@
+{
+  "id": 200,
+  "category": {
+    "id": 0,
+    "name": "dog"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "foto"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "mestizo"
+    }
+  ],
+  "status": "available"
+}
