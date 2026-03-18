@@ -109,7 +109,7 @@ Feature: Booking
     * print responseToken
     * def tokenAuth = responseToken.token
 
-    Given url "https://restful-booker.herokuapp.com/"
+    Given url "https://resful-booker.herokuapp.com/"
     And header Content-Type = "application/json"
     And header Accept = "application/json"
     And header Cookie = "token="+tokenAuth
